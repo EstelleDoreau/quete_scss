@@ -1,0 +1,32 @@
+/* background's colors */
+.panel-default>.panel-heading, 
+.background--orange {
+	background-color: #ff5f01;
+}
+.background--dark {
+    background-image: url(../img/bg_dark.png);
+    color: white;
+    padding: 4em 0;
+}
+.background--light {
+    background-image: url(../img/bg_light.png);
+    padding: 4em 0;
+}
+
+/* orange separator */
+.separator {
+	display: flex;
+	justify-content: center;
+}
+.separator hr {
+	width: 30%;
+    background-color: #ff5f01;
+    border: 2px solid #ff5f01;
+    position: absolute;
+    margin: 0 auto; 
+}
+
+/* image */
+.img-responsive {
+	margin: 0 auto;
+}
